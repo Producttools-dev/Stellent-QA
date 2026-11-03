@@ -11,6 +11,6 @@ export const config = {
      * Run on all paths except static assets and the VPS callback route
      * (which authenticates itself with the webhook secret, not a user session).
      */
-    "/((?!_next/static|_next/image|favicon.ico|api/audit|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|api/audit|api/free-audit|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
   ],
 };
